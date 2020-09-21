@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contact: one
+  date: 2020-09-20 18:54:44
+  description: MyText
+  notes: MyText
+
+two:
+  contact: two
+  date: 2020-09-20 18:54:44
+  description: MyText
+  notes: MyText

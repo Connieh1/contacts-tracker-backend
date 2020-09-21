@@ -1,0 +1,13 @@
+Contact
+has_many :interactions
+:name, string
+:category, string
+:company, string
+
+
+Interaction
+belongs_to :contact
+:contact_id, integer
+:date, datetime
+:description, text
+:notes/follow-up, text
