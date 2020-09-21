@@ -38,8 +38,7 @@ class Api::V1::InteractionsController < ApplicationController
   end
 
   def interaction_params
-    params.require(:interaction).permit(:contact_id, :date,
-:description, :notes)
+    params.require(:interaction).permit(:contact_id, :date, :description, :notes)
   end
 
 

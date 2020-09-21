@@ -11,6 +11,7 @@ class Api::V1::ContactsController < ApplicationController
       render json: contact
     else
       render json: {error: 'Error creating contact'}
+    end
   end
 
   def show
