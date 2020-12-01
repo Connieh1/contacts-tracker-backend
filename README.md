@@ -2,9 +2,6 @@
 
 >  A Rails API backend for a contacts interaction tracker. Frontend: https://github.com/Connieh1/contacts-tracker-frontend
 
-#Built With
-Rails
-
 ## Installation
 
 ```sh
@@ -17,6 +14,9 @@ $ npm install --save contacts-tracker-backend
 var contactsTrackerBackend = require('contacts-tracker-backend');
 contactsTrackerBackend();
 ```
+
+## Built With
+Ruby <br />
 
 ## License
 
