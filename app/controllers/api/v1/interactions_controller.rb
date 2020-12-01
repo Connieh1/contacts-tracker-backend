@@ -10,9 +10,10 @@ class Api::V1::InteractionsController < ApplicationController
   def create
     interaction = @contact.interactions.new(interaction_params)
     if interaction.save
-      render json: interaction
+      render json: @contact
     else
       render json: {error: 'Error creating interaction'}
+    end
   end
 
   def show
@@ -29,6 +30,7 @@ class Api::V1::InteractionsController < ApplicationController
   def destroy
     interaction = @contact.interactions.find_by(id: params[:id])
     interaction.destroy
+    render json: @contact
   end
 
   private

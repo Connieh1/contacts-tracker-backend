@@ -1,24 +1,20 @@
-# README
+# contacts-tracker-backend [![NPM version](https://badge.fury.io/js/contacts-tracker-backend.svg)](https://npmjs.org/package/contacts-tracker-backend) [![Build Status](https://travis-ci.org/Connieh1/contacts-tracker-backend.svg?branch=master)](https://travis-ci.org/Connieh1/contacts-tracker-backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>  A Rails API backend for a contacts interaction tracker
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+```sh
+$ npm install --save contacts-tracker-backend
+```
 
-* System dependencies
+## Usage
 
-* Configuration
+```js
+var contactsTrackerBackend = require('contacts-tracker-backend');
+contactsTrackerBackend();
+```
 
-* Database creation
+## License
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT © [C Hyman]()

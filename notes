@@ -10,4 +10,4 @@ belongs_to :contact
 :contact_id, integer
 :date, datetime
 :description, text
-:notes/follow-up, text
+:notes, text

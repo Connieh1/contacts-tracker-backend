@@ -1,5 +1,5 @@
 class Contact < ApplicationRecord
   has_many :interactions
-  validates :name, :category, presence: true
+  validates :name, :telephone, :email, :category, presence: true
 
 end
